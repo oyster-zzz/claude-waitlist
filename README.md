@@ -44,14 +44,14 @@
 
 ### Manual install / 手动安装
 
-1. Download the latest release and unpacked to obtain the `dist/` folder.
-   下载最新的release版本并解压得到dist文件夹。
+1. Download the latest release and unpacked to obtain the folder.
+   下载最新的release版本并解压得到文件夹。
 
 2. Open `chrome://extensions` and enable **Developer mode**.
    打开 `chrome://extensions`，启用「开发者模式」。
 
-3. Click **Load unpacked** and select the `dist/` folder.
-   点击「加载已解压的扩展程序」，选择 `dist/` 目录。
+3. Click **Load unpacked** and select the obtained folder.
+   点击「加载已解压的扩展程序」，选择解压得到的目录。
 
 4. Open [claude.ai](https://claude.ai) — the floating panel appears automatically.
    打开 Claude 页面，浮窗自动出现。
