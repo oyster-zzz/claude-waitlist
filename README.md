@@ -44,8 +44,8 @@
 
 ### Manual install / 手动安装
 
-1. Download or clone this repository.
-   下载或克隆本仓库。
+1. Download the latest release and unpacked to obtain the `dist/` folder.
+   下载最新的release版本并解压得到dist文件夹。
 
 2. Open `chrome://extensions` and enable **Developer mode**.
    打开 `chrome://extensions`，启用「开发者模式」。
