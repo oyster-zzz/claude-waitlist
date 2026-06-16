@@ -1,10 +1,14 @@
 <h1 align="center">Claude Waitlist</h1>
 
+
 <p align="center">
-  A Chrome extension that queues your Claude tasks and auto-sends them after the usage limit resets.
+  A Chrome extension that queues your Claude tasks and auto-sends them after the usage limit resets, with 5-hour and weekly usage bars.
   <br/>
-  一个 Chrome 扩展，在 Claude 用量重置后自动续发你的排队任务。
+  一个 Chrome 扩展，在 Claude 用量重置后自动续发你的排队任务，兼具显示 5 小时和每周用量进度条。
 </p>
+
+<img width="2172" height="724" alt="github-banner-apple-style" src="https://github.com/user-attachments/assets/2a2e03fd-6568-4e4a-9e5f-a02ff903871e" />
+
 
 <p align="center">
   <a href="#features--功能">Features</a> · <a href="#install--安装">Install</a> · <a href="#usage--使用">Usage</a> · <a href="#safety--合规">Safety</a> · <a href="#development--开发">Development</a>
