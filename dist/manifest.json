@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Waitlist",
+  "version": "0.1.0",
+  "description": "Chrome extension that queues your Claude tasks and auto-sends them after the usage limit resets.",
+  "permissions": ["storage", "alarms", "notifications", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://claude.ai/*",
+    "https://www.claude.ai/*",
+    "https://claude.com/*",
+    "https://www.claude.com/*"
+  ],
+  "background": {
+    "service_worker": "serviceWorker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Claude Waitlist"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://www.claude.ai/*",
+        "https://claude.com/*",
+        "https://www.claude.com/*"
+      ],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
