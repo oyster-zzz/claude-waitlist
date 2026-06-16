@@ -36,6 +36,9 @@
 - **Privacy-first** — All data stays in `chrome.storage.local`. No external servers, no tokens collected, no chat history accessed.
   所有数据仅存储在本地，不上传任何信息。
 
+<img width="1672" height="941" alt="ChatGPT Image 2026年6月16日 12_54_10" src="https://github.com/user-attachments/assets/b98ae4b9-5535-4fab-a592-2dbdfab81fce" />
+  
+
 ## Install / 安装
 
 ### From Chrome Web Store / 商店安装
